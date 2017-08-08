@@ -13,6 +13,7 @@
 		112C74F01F38E6D600A57E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112C74EE1F38E6D600A57E70 /* Main.storyboard */; };
 		112C74F21F38E6D600A57E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112C74F11F38E6D600A57E70 /* Assets.xcassets */; };
 		112C74F51F38E6D600A57E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112C74F31F38E6D600A57E70 /* LaunchScreen.storyboard */; };
+		112C75061F394FF700A57E70 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112C75051F394FF700A57E70 /* NewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		112C74F11F38E6D600A57E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		112C74F41F38E6D600A57E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		112C74F61F38E6D600A57E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112C75041F394FF700A57E70 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		112C75051F394FF700A57E70 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		112C74E41F38E6D600A57E70 /* ScrollViewImageGallaries */ = {
 			isa = PBXGroup;
 			children = (
+				112C75041F394FF700A57E70 /* NewViewController.h */,
+				112C75051F394FF700A57E70 /* NewViewController.m */,
 				112C74E81F38E6D600A57E70 /* AppDelegate.h */,
 				112C74E91F38E6D600A57E70 /* AppDelegate.m */,
 				112C74EB1F38E6D600A57E70 /* ViewController.h */,
@@ -153,6 +158,7 @@
 				112C74ED1F38E6D600A57E70 /* ViewController.m in Sources */,
 				112C74EA1F38E6D600A57E70 /* AppDelegate.m in Sources */,
 				112C74E71F38E6D600A57E70 /* main.m in Sources */,
+				112C75061F394FF700A57E70 /* NewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

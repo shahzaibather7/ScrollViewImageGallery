@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  newViewController.h
 //  ScrollViewImageGallaries
 //
 //  Created by Mohammad Shahzaib Ather on 2017-08-07.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIScrollViewDelegate>
+@interface NewViewController : UIViewController
 
-
+@property (nonatomic,strong) UIImage *image;
 
 @end
-
